@@ -395,19 +395,9 @@
               <FilePath>.\system_stm32f10x.c</FilePath>
             </File>
             <File>
-              <FileName>timer4_usart.c</FileName>
+              <FileName>DTU.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\timer4_usart.c</FilePath>
-            </File>
-            <File>
-              <FileName>gpio.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\gpio.c</FilePath>
-            </File>
-            <File>
-              <FileName>sim900a.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\sim900a.c</FilePath>
+              <FilePath>.\DTU.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -415,14 +405,14 @@
           <GroupName>HARDWARE</GroupName>
           <Files>
             <File>
-              <FileName>led.c</FileName>
+              <FileName>tmr_usart.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\HARDWARE\LED\led.c</FilePath>
+              <FilePath>.\tmr_usart.c</FilePath>
             </File>
             <File>
-              <FileName>key.c</FileName>
+              <FileName>gpio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\HARDWARE\KEY\key.c</FilePath>
+              <FilePath>.\gpio.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -498,13 +488,6 @@
         </Group>
         <Group>
           <GroupName>README</GroupName>
-          <Files>
-            <File>
-              <FileName>README.TXT</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\README.TXT</FilePath>
-            </File>
-          </Files>
         </Group>
       </Groups>
     </Target>
